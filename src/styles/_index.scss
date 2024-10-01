@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  background-color: rgb(7, 18, 136);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 80%;
+    & > div {
+      display: flex;
+      height: 30rem;
+      .navBar {
+        width: 15rem;
+      }
+      & > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .header {
+          height: 4rem;
+        }
+        .container-body {
+          background-color: $color_blue;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          & > div {
+            flex:1 0 auto;
+          }
+        }
+      }
+    }
+    .music-bar {
+      width: 100%;
+      height: 3.5rem;
+    }
+  }
+}

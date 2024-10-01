@@ -1,3 +1,3 @@
-[submodule "Libreries_Projects"]
-	path = Libreries_Projects
+[submodule "Library"]
+	path = Library
 	url = git@github-personal:leandro12rk/Libreries_Projects.git
